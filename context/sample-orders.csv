@@ -1,0 +1,4 @@
+order_id,customer_id,customer_name,status,reason,business_impact,related_incident
+O-10045,C-245,Globex Retail,Blocked,Payment validation rule mismatch,High,INC-7781
+O-10046,C-311,Contoso Labs,Ready,Validation passed,Low,
+O-10047,C-122,Northwind,Pending,Credit approval pending,Medium,

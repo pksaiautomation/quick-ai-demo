@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AnyCompany Order Portal - Amazon Quick Embed Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <div class="brand">AnyCompany Order Portal</div>
+      <div class="subtitle">Sample production application screen for Amazon Quick custom chat agent demo</div>
+    </div>
+    <button id="openAssistant" class="assistant-button">Open AI Assistant</button>
+  </header>
+
+  <main class="layout">
+    <section class="card hero">
+      <p class="eyebrow">Customer 360</p>
+      <h1>Order O-10045 is blocked by payment validation</h1>
+      <p class="summary">This is a local demo website that represents an existing production application. The right-side AI Assistant panel can be shown in mock mode or replaced with a real Amazon Quick embedded chat URL.</p>
+      <div class="facts">
+        <div><span>Customer</span><strong>C-245 - Globex Retail</strong></div>
+        <div><span>Priority</span><strong>High</strong></div>
+        <div><span>Business process</span><strong>Order-to-Cash</strong></div>
+        <div><span>Application</span><strong>OrderHub</strong></div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card"><h2>Open Orders</h2><p class="metric">43</p><p>Seven orders require business validation.</p></article>
+      <article class="card"><h2>Blocked Revenue</h2><p class="metric">$128K</p><p>Estimated business impact if not resolved today.</p></article>
+      <article class="card"><h2>Active Incidents</h2><p class="metric">2</p><p>INC-7781 is related to payment authorization failures.</p></article>
+    </section>
+
+    <section class="card table-card">
+      <h2>Recent transactions</h2>
+      <table>
+        <thead><tr><th>Order</th><th>Customer</th><th>Status</th><th>Reason</th><th>Action</th></tr></thead>
+        <tbody>
+          <tr><td>O-10045</td><td>Globex Retail</td><td><span class="pill red">Blocked</span></td><td>Payment validation rule mismatch</td><td>Review</td></tr>
+          <tr><td>O-10046</td><td>Contoso Labs</td><td><span class="pill green">Ready</span></td><td>Validation passed</td><td>Ship</td></tr>
+          <tr><td>O-10047</td><td>Northwind</td><td><span class="pill amber">Pending</span></td><td>Credit approval pending</td><td>Wait</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <aside id="assistantPanel" class="assistant-panel hidden">
+    <div class="assistant-header">
+      <div><strong>Amazon Quick Agent</strong><span>Business-context assistant</span></div>
+      <button id="closeAssistant">×</button>
+    </div>
+    <div id="embedContainer" class="embed-container"></div>
+  </aside>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
