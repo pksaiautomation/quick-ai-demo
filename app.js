@@ -1,3 +1,4 @@
+/*
 const panel = document.getElementById('assistantPanel');
 const container = document.getElementById('embedContainer');
 document.getElementById('openAssistant').onclick = () => { panel.classList.remove('hidden'); renderAssistant(); };
@@ -29,4 +30,15 @@ function add(cls, html) {
   div.innerHTML = html;
   const messages = document.getElementById('messages');
   messages.appendChild(div); messages.scrollTop = messages.scrollHeight;
-}
+}*/
+const panel = document.getElementById('assistantPanel');
+const openButton = document.getElementById('openAssistant');
+const closeButton = document.getElementById('closeAssistant');
+
+openButton.onclick = () => {
+  panel.classList.remove('hidden');
+};
+
+closeButton.onclick = () => {
+  panel.classList.add('hidden');
+};
