@@ -3,7 +3,7 @@
 window.QUICK_DEMO_CONFIG = {
   mode: "mock", // "mock" or "embed-url"
   appName: "AnyCompany Order Portal",
-  quickEmbedUrl: "" // paste generated Quick chat embed URL here for real embed-url mode
+  quickEmbedUrl: "us-east-1.quicksight.aws.amazon.com/sn/account/211125351774/start/agents?view=21e5e9bb-c5e8-4414-bdcc-d4fcb8aef5a0" // paste generated Quick chat embed URL here for real embed-url mode
 };
 
 // Option 2: real Quick embed URL returned by your secure backend
