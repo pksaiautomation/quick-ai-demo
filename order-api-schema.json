@@ -1,0 +1,41 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Order Management Demo API",
+    "description": "Read-only API used by Amazon Quick to retrieve current order data for the Order Management demo.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://github.com/pksaiautomation/quick-ai-demo"
+    }
+  ],
+  "paths": {
+    "/orders.json": {
+      "get": {
+        "operationId": "getOrders",
+        "summary": "Get current orders",
+        "description": "Retrieve the current list of orders from the Order Management demo application.",
+        "x-amzn-operation-type": "read",
+        "responses": {
+          "200": {
+            "description": "Current order information",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "orders": {
+                      "type": "string",
+                      "description": "Current order information returned by the demo application."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

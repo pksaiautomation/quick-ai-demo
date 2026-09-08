@@ -1,0 +1,20 @@
+{
+  "orders": [
+    {
+      "OrderID": "ORD-1001",
+      "Customer": "ABC Corporation",
+      "Product": "Enterprise Cloud Package",
+      "Status": "Processing",
+      "Value": 120000,
+      "Reason": "Normal processing"
+    },
+    {
+      "OrderID": "ORD-1002",
+      "Customer": "XYZ Limited",
+      "Product": "Managed Security Service",
+      "Status": "Shipped",
+      "Value": 85000,
+      "Reason": "Order dispatched"
+    }
+  ]
+}
