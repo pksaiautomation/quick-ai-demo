@@ -6,7 +6,7 @@
       "Product": "Enterprise Cloud Package",
       "Status": "Processing",
       "Value": 120000,
-      "Reason": "Normal processing"
+      "Reason": "Order accepted and provisioning is in progress"
     },
     {
       "OrderID": "ORD-1002",
@@ -14,7 +14,71 @@
       "Product": "Managed Security Service",
       "Status": "Shipped",
       "Value": 85000,
-      "Reason": "Order dispatched"
+      "Reason": "Order dispatched to customer"
+    },
+    {
+      "OrderID": "ORD-1003",
+      "Customer": "Contoso Retail",
+      "Product": "Premium Delivery Service",
+      "Status": "Blocked",
+      "Value": 150000,
+      "Reason": "Credit validation failed"
+    },
+    {
+      "OrderID": "ORD-1004",
+      "Customer": "Northwind Traders",
+      "Product": "Cloud Migration Service",
+      "Status": "Pending Validation",
+      "Value": 95000,
+      "Reason": "Customer address validation pending"
+    },
+    {
+      "OrderID": "ORD-1005",
+      "Customer": "Fabrikam Industries",
+      "Product": "Managed Infrastructure",
+      "Status": "Completed",
+      "Value": 72000,
+      "Reason": "Order successfully delivered"
+    },
+    {
+      "OrderID": "ORD-1006",
+      "Customer": "Adventure Works",
+      "Product": "Data Analytics Platform",
+      "Status": "Blocked",
+      "Value": 210000,
+      "Reason": "Payment authorization mismatch"
+    },
+    {
+      "OrderID": "ORD-1007",
+      "Customer": "Woodgrove Bank",
+      "Product": "Cloud Security Assessment",
+      "Status": "Pending Approval",
+      "Value": 135000,
+      "Reason": "High-value order requires finance approval"
+    },
+    {
+      "OrderID": "ORD-1008",
+      "Customer": "Tailspin Toys",
+      "Product": "Application Modernization",
+      "Status": "Processing",
+      "Value": 180000,
+      "Reason": "Technical validation completed and delivery preparation started"
+    },
+    {
+      "OrderID": "ORD-1009",
+      "Customer": "Blue Yonder Airlines",
+      "Product": "Managed Network Service",
+      "Status": "Cancelled",
+      "Value": 64000,
+      "Reason": "Customer cancelled before fulfillment"
+    },
+    {
+      "OrderID": "ORD-1010",
+      "Customer": "Lucerne Publishing",
+      "Product": "Disaster Recovery Service",
+      "Status": "On Hold",
+      "Value": 110000,
+      "Reason": "Contract amendment pending legal review"
     }
   ]
 }
